@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StudentManagementSystem1",
+            "request": "launch",
+            "mainClass": "StudentManagementSystem1",
+            "projectName": "JavaProject_d05ba9fa"
+        },
+        {
+            "type": "java",
+            "name": "StudentManagementSystem",
+            "request": "launch",
+            "mainClass": "StudentManagementSystem",
+            "projectName": "JavaProject_d05ba9fa"
+        },
+        {
+            "type": "java",
+            "name": "ATMInterface",
+            "request": "launch",
+            "mainClass": "pkginterface.ATMInterface",
+            "projectName": "JavaProject_d05ba9fa"
+        },
+        {
+            "type": "java",
+            "name": "ATMInterface",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:/javafx/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxmml",
+            "mainClass": "ATMInterface",
+            "projectName": "JavaProject_d05ba9fa"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:/javafx/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "${file}"
+        }
+    ]
+}
